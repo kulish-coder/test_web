@@ -1,0 +1,14 @@
+<h1><span class="gradient">Градиент</span> по горизонтали</h1>
+ 
+<p class="gradient">
+	...
+</p>
+ 
+<style>
+.gradient {
+	color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, red, fuchsia);
+}
+</style>
